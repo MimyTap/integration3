@@ -1,0 +1,181 @@
+/*RESET CSS*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*End Reset CSS*/
+
+
+/* general:
+Couleurs :
+- texte vert (rollover) : #27AE61
+- texte gris foncé : #2B3F48
+- gris clair : #656565
+- blanc (grisé) : rgba(255,255,255,.8)
+*/
+/*general*/
+body {
+  margin: 0 139px;
+  font-family: 'News Cycle';
+  font-size: 17px;
+  background-color: black;
+	text-align: center;
+}
+.container {
+  margin: 0 auto;
+  width: 1000px;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+/*header*/
+header nav ul li {
+  text-transform: uppercase;
+  display: inline;
+	padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #656565;
+}
+a:hover {
+  color: #27AE61;
+}
+header {
+  height: 89px;
+	line-height: 89px;
+	margin: 0 40px;
+}
+
+nav ul {
+	float: right;
+}
+
+.titre1 {
+	float: left;
+}
+
+/*articles*/
+.etiam {
+  background-image: url(../images/banner.png);
+  height: 704px;
+  background-repeat: no-repeat;
+  background-size: cover;
+	line-height: 704px;
+		}
+.etiam, .fusce {
+	background-color: #27AE61;
+	}
+.etiam h2, .fusce h2 {
+  font-size: 55px;
+	color: #fff;
+}
+.nulla h2 {
+	font-size: 55px;
+	color: #2B3F48;
+}
+.nulla, .fusce {
+	height: 513px;
+	line-height: 513px;
+			}
+.bloc {
+	width: 722px;
+	vertical-align:middle;
+  display:inline-block;
+  line-height:normal; /* on rétablit le line-height */
+}
+h3, h1 {
+  font-size: 22px;
+}
+.nulla p {
+	color: #656565;
+}
+h1 {
+  font-weight: bold;
+	color: #2B3F48;
+}
+
+img {
+	border-radius: 50%;
+	width: 159px;
+	padding: 21px;
+}
+.bloc h3 {
+	padding-bottom: 38px;
+	}
+.etiam p, .etiam h3, .fusce p, .fusce h3 {
+	color: rgba(255, 255, 255, .8);
+}
+
+.etiam a, .nulla a {
+	color: rgba(255, 255, 255, .8);
+}
+
+.fusce a {
+	color: #27AE61;
+}
+
+.etiam button {
+	background-color: #2B3F48;
+	border: 1px solid #2B3F48;
+	border-radius: 5px;
+	}
+
+.nulla button {
+	background-color: #27AE61;
+	border: 1px solid #27AE61;
+	border-radius: 5px;
+}
+
+button {
+	height: 42px;
+	width: 176px;
+}
+
+button a {
+	text-transform: uppercase;
+}
+
+.bloc p {
+	padding-bottom: 38px;
+}
+
+/*footer*/
+em {
+	color: #2B3F48;
+	font-style: normal;
+}
+footer p {
+	color: #656565;
+	height: 114px;
+	line-height: 114px;
+}
